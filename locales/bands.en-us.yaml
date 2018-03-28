@@ -1,0 +1,6 @@
+- id: "band.created.success"
+  translation: "Band was successfully created."
+- id: "band.updated.success"
+  translation: "Band was successfully updated."
+- id: "band.destroyed.success"
+  translation: "Band was successfully destroyed."

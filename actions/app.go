@@ -9,7 +9,7 @@ import (
 
 	"github.com/gobuffalo/x/sessions"
 	"github.com/rs/cors"
-	"github.com/waelbendhia/scruffy_backend/models"
+	"github.com/waelbendhia/scruffy-backend/models"
 )
 
 // ENV is used to help switch settings based on where the
@@ -50,6 +50,7 @@ func App() *buffalo.App {
 
 		app.GET("/", HomeHandler)
 
+		app.Resource("/bands", BandsResource{})
 	}
 
 	return app

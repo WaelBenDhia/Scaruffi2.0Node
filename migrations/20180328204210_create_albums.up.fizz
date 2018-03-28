@@ -1,0 +1,3 @@
+create_table("albums", func(t) {
+	t.Column("id", "uuid", {"primary": true})
+})

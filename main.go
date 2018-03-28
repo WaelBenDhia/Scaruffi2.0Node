@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/waelbendhia/scruffy_backend/actions"
+	"github.com/waelbendhia/scruffy-backend/actions"
 )
 
 func main() {

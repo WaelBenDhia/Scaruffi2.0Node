@@ -2,8 +2,8 @@
 # https://docs.docker.com/engine/userguide/eng-image/multistage-build/
 FROM gobuffalo/buffalo:v0.11.0 as builder
 
-RUN mkdir -p $GOPATH/src/github.com/waelbendhia/scruffy_backend
-WORKDIR $GOPATH/src/github.com/waelbendhia/scruffy_backend
+RUN mkdir -p $GOPATH/src/github.com/waelbendhia/scruffy-backend
+WORKDIR $GOPATH/src/github.com/waelbendhia/scruffy-backend
 
 ADD . .
 RUN go get $(go list ./... | grep -v /vendor/)
