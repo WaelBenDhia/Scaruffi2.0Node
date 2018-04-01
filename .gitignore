@@ -40,3 +40,9 @@ jspm_packages
 
 .vscode
 dist
+
+vendor
+gin-bin
+debug
+links
+output
